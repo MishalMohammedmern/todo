@@ -1,0 +1,174 @@
+.home_main{
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    
+
+}
+.home_left{
+    width: 50%;
+   
+    
+    
+}
+.home_right{
+    width: 50%;
+}
+.home_content{
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+}
+.home_head h3{
+    margin-top: 14%;
+    font-size: 33px;
+    font-weight:500;
+    font-family: roboto;
+    line-height: 38px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.input1{
+    width: 45%;
+    border-color: gray;
+    height: 55px;
+    margin-top: 30px;
+}
+.home_but{
+    width: 35%;
+    background-color: #597EF7;
+    color: #ffffff;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.home_button{
+    margin-top: 5%;
+}
+.line{
+    border-left: 1px solid gray;
+    height:800px;
+    margin-top: 10%;
+}
+.home_right1{
+    display: flex;
+    width: 100%;
+    
+}
+.todo_head h3{
+    margin-top: 20%;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.14px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-left: 58px;
+}
+.search_filters{
+    display: flex;
+   margin-top: 53px;
+   
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.todo{
+    width: 100%;
+} 
+.todo_list{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+.horizontal_line{
+        border-bottom: 1px solid gray;
+        width: 100%;
+        
+    
+}
+.list_head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+
+   color: rgba(0, 0, 0, 0.85);
+
+
+}
+.list_desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.85);
+
+}
+.dot{
+   width: 2.5px;
+   height: 15px;
+   margin-left: 85%;
+   position: relative;
+   bottom: 60px;
+}
+.dot1{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#list-item{
+  text-decoration: line-through;
+}
+#fav{
+    background-color: green;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* .dropdown-content{
+    cursor: pointer;
+} */
+
+@media(max-width:860px){
+    .line{
+       border-left: none;
+       border-bottom: 1px solid gray;
+        width: 100%;
+        height: 0;
+    }
+    .home_main{
+        flex-direction: column;
+    }
+    .home_left{
+        width: 100%;
+    }
+    .home_right{
+        width: 100%;
+    }
+    .home_head h3{
+        margin-top:0;
+    }
+    .home_right1{
+        flex-direction: column;
+    }
+    .todo_list{
+        margin-top: 5%;
+    }
+}
+@media(max-width:450px){
+    .search_filters{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .search{
+        margin-bottom:10px ;
+    }
+}
